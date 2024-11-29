@@ -10,12 +10,12 @@
         <input type="number" id="number1" placeholder="Pierwsza liczba" required>
         <input type="number" id="number2" placeholder="Druga liczba" required>
         <br>
-        <button ............................>Dodaj</button>
-        <button ............................>">Odejmij</button>
-        <button ............................>">Pomnóż</button>
-        <button ............................>">Podziel</button>
+        <button type="button" onclick="calculate('add')">Dodaj</button>
+        <button type="button" onclick="calculate('subtract')">Odejmij</button>
+        <button type="button" onclick="calculate('multiply')">Pomnóż</button>
+        <button type="button" onclick="calculate('divide')">Podziel</button>
     </form>
-    <h2>Wynik: <span id="result"></span></h2>
+    <h2>Wynik: <span id="result">0</span></h2>
 
     <script src="script.js"></script>
 </body>
